@@ -1,0 +1,12 @@
+<resources>
+    <string name="welCome">WelCome!</string>
+    <string name="SignUp">SignUp</string>
+    <string name="LogIn">LogIn</string>
+    <string name="myName">Nagalakshmi</string>
+    <string name="firstName">Enter FirstName</string>
+    <string name="lastName">Enter lastName</string>
+    <string name="mobileNumber">Enter MobileNumber</string>
+    <string name="emailId">Enter emailId</string>
+    <string name="gender">Enter EnterGender</string>
+    <string name="passWord">Enter passWord</string>
+</resources>

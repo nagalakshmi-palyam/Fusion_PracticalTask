@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.SignUpActivity"
+    android:layout_margin="@dimen/dp_30">
+    <EditText
+        android:hint="@string/firstName"
+        android:id="@+id/etFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:hint="@string/lastName"
+        android:layout_below="@+id/etFirstName"
+        android:id="@+id/etLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:inputType="number"
+        android:hint="@string/mobileNumber"
+        android:layout_below="@+id/etLastName"
+        android:id="@+id/etMobileNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:inputType="textEmailAddress"
+        android:hint="@string/emailId"
+        android:layout_below="@+id/etMobileNumber"
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:inputType="textPassword"
+        android:hint="@string/passWord"
+        android:layout_below="@+id/etEmail"
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:hint="@string/gender"
+        android:layout_below="@+id/etPassword"
+        android:id="@+id/etGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+     <Button
+         android:layout_marginTop="@dimen/dp_10"
+         android:background="@color/blueColor"
+         android:text="@string/SignUp"
+         android:layout_below="@id/etGender"
+         android:id="@+id/btnSignUp"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"/>
+
+
+</RelativeLayout>
